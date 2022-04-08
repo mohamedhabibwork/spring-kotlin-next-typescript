@@ -1,0 +1,30 @@
+{
+  "name": "chat-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "install": "^0.13.0",
+    "net": "^1.0.2",
+    "next": "12.1.4",
+    "npm": "^8.6.0",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "sockjs-client": "^1.6.0",
+    "stompjs": "^2.3.3"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.23",
+    "@types/react": "18.0.0",
+    "@types/react-dom": "18.0.0",
+    "@types/stompjs": "^2.3.5",
+    "eslint": "8.12.0",
+    "eslint-config-next": "12.1.4",
+    "typescript": "4.6.3"
+  }
+}
